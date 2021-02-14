@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "torba"
-  spec.version       = "1.0.1"
+  spec.version       = "1.0.2"
   spec.authors       = ["Andrii Malyshko"]
   spec.email         = ["mail@nashbridges.me"]
   spec.description   = "Bundler for Sprockets"
@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.bindir        = "bin"
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "thor", "~> 0.19.1"
+  spec.add_dependency "thor", "~> 0.19.1", "~> 1.1.0"
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake", "~> 10.0"
